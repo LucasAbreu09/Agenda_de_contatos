@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Agenda de contatos</title>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <ion-icon name="call-outline"></ion-icon>
+            <h1>Agenda de contatos</h1>
+        </header>
+    
+        <form action="" id="form_contato">
+            <input type="text" required id="nome_contato" placeholder="nome da pessoa" maxlength="30">
+            <input type="tel" required id="numero_contato" placeholder="contato" min="0" max="11">
+            <button type="submit">Salvar</button>
+        </form>
+    
+        <table cellspacing = "0">
+            <thead>
+                <tr>
+                    <th>nome de contato</th>
+                    <th>numero da pessoa</th>
+                    <th>Ligar</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+            
+        </table>
+    
+    
+    
+    </div>
+
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
